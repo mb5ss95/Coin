@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="right"
+    android:layout_margin="8dp"
+    android:id="@+id/areyou"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:id="@+id/buttons_call_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/button_call_switch_camera"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:padding="10dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/camera"/>
+
+        <ImageButton
+            android:id="@+id/button_call_toggle_mic"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:padding="10dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/mic"/>
+
+        <ImageButton
+            android:id="@+id/button_call_disconnect"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:padding="10dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/end"/>
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.myapplication.ScrollingActivity">
+    <item
+        android:id="@+id/invitebf"
+        android:icon="@drawable/invitebf"
+        android:orderInCategory="100"
+        android:title="초대하기"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/playgame"
+        android:icon="@drawable/playgame"
+        android:orderInCategory="100"
+        android:title="게임하기"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/chatting"
+        android:icon="@drawable/chatting"
+        android:orderInCategory="100"
+        android:title="채팅하기"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/settings"
+        android:orderInCategory="100"
+        android:title="설정하기"
+        app:showAsAction="always" />
+</menu>
