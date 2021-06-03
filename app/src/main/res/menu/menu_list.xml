@@ -13,8 +13,23 @@
         android:id="@+id/playgame"
         android:icon="@drawable/playgame"
         android:orderInCategory="100"
-        android:title="게임하기"
-        app:showAsAction="always" />
+        android:title="게임선택"
+        app:showAsAction="always">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/LadderSelection"
+                    android:orderInCategory="100"
+                    android:title="사다리 게임 선택"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/RouletSelection"
+                    android:orderInCategory="100"
+                    android:title="룰렛 선택"
+                    app:showAsAction="never" />
+            </group>
+        </menu>
+    </item>
 
     <item
         android:id="@+id/chatting"

@@ -9,22 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Coin">
-        <activity android:name=".login.LaunchActivity">
+        <activity android:name=".login.FirstActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".login.LaunchActivity"></activity>
         <activity android:name=".login.LoginActivity"></activity>
         <activity android:name=".login.RegisterActivity"></activity>
         <activity android:name=".MainActivity"></activity>
-        <activity android:name=".StartActivity"></activity>
         <activity android:name=".RoomActivity"></activity>
-        <activity android:name=".option.SettingsActivity"></activity>
+        <activity android:name="com.example.coin.enter.gameDialog" android:theme="@android:style/Theme.Material.Dialog.NoActionBar"/>
     </application>
-    <uses-feature android:name="android.hardware.camera.any" />
 
+    <uses-feature android:name="android.hardware.camera.any" />
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
     <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />

@@ -29,6 +29,7 @@ public class LaunchActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+        getSupportActionBar().hide();
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             if (!CheckPermisson(PERMISSIONS)) {
@@ -36,7 +37,7 @@ public class LaunchActivity extends AppCompatActivity {
                 //퍼미션 허가가 안되어있다면 사용자에게 요청
                 requestPermissions(PERMISSIONS, PERMISSIONS_REQUEST_CODE);
             } else {
-                Intent intent = new Intent(this, LoginActivity.class);
+                Intent intent = new Intent(this, FirstActivity.class);
                 startActivity(intent);
                 finish();
             }
@@ -79,7 +80,7 @@ public class LaunchActivity extends AppCompatActivity {
                         showDialogForPermission("앱을 실행하려면 권한을 허가 하세요!!");
                         finish();
                     } else {
-                        Intent intent = new Intent(this, LoginActivity.class);
+                        Intent intent = new Intent(this, FirstActivity.class);
                         startActivity(intent);
                         finish();
                     }

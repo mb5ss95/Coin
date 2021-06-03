@@ -15,8 +15,7 @@
             android:layout_height="144dp"
             android:layout_gravity="bottom|end"
             android:layout_marginRight="16dp"
-            android:layout_marginBottom="16dp"
-            android:visibility="invisible"/>
+            android:layout_marginBottom="16dp"/>
 
         <org.webrtc.SurfaceViewRenderer
             android:id="@+id/ac_room_surfaceView3"
@@ -24,8 +23,7 @@
             android:layout_height="144dp"
             android:layout_gravity="bottom|end"
             android:layout_marginRight="136dp"
-            android:layout_marginBottom="16dp"
-            android:visibility="invisible"/>
+            android:layout_marginBottom="16dp"/>
 
         <org.webrtc.SurfaceViewRenderer
             android:id="@+id/ac_room_surfaceView4"
@@ -33,8 +31,7 @@
             android:layout_height="144dp"
             android:layout_gravity="bottom|end"
             android:layout_marginRight="256dp"
-            android:layout_marginBottom="16dp"
-            android:visibility="invisible"/>
+            android:layout_marginBottom="16dp"/>
 
         <FrameLayout
             android:id="@+id/call_fragment_container"

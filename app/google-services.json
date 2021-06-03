@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "658784225993",
-    "project_id": "coin-3f426",
-    "storage_bucket": "coin-3f426.appspot.com"
+    "project_number": "900819964162",
+    "project_id": "ccoin-5a85c",
+    "storage_bucket": "ccoin-5a85c.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:658784225993:android:b91ba15587a35d191a1b18",
+        "mobilesdk_app_id": "1:900819964162:android:8da5eb6832a5403128b21b",
         "android_client_info": {
           "package_name": "com.example.coin"
         }
       },
       "oauth_client": [
         {
-          "client_id": "658784225993-sjt9sqcjagdnbugavvo1jg7gl5hnp2m0.apps.googleusercontent.com",
+          "client_id": "900819964162-tnaqj8c3aru19t35d39f79bghd6amnnp.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAVWv_fqOJvOh_mdwOZxv22huaIDgoYtjg"
+          "current_key": "AIzaSyBNHDr2E6JtG8cdGcD_1GeUzH9a12y0xeA"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "658784225993-sjt9sqcjagdnbugavvo1jg7gl5hnp2m0.apps.googleusercontent.com",
+              "client_id": "900819964162-tnaqj8c3aru19t35d39f79bghd6amnnp.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
